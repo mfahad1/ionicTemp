@@ -39,18 +39,22 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  login-backgroundcolor :#2d3f57,
+  login-backgroundcolor :#241445,
   text-color:#b1b9c4,
-
+  dark-color: #190C38
 );
 
 
 $login:(
-  backgroundcolor :#2d3f57,
+  backgroundcolor :#241445,
   color:#b1b9c4,
 );
 
+$toolbar-background: #241445;
 
+$background-ios-color:#a6b0bd;
+$background-md-color: #a6b0bd;
+$background-wp-color: #a6b0bd;
 
 // App iOS Variables
 // --------------------------------------------------

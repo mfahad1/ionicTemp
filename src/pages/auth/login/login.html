@@ -21,7 +21,7 @@
               <p>Please enter password.</p>
           </ion-item> -->
           <div class="btn-custom">
-            <button ion-button full  [disabled]="!loginForm.valid">SIGNIN</button>
+            <button ion-button full  [disabled]="!loginForm.valid" (click)="gotoArea()">SIGNIN</button>
             <button ion-button full color="dark" (click)="gotoRegister()" >REGISTER</button>
           </div>
         </ion-col>

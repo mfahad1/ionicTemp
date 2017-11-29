@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginComponent } from '../pages/auth/login/login';
 import { RegisterComponent } from '../pages/auth/register/register';
+import { AreaComponent } from '../pages/mainPages/area/area';
 
 @Component({
   templateUrl: 'app.html'
@@ -15,6 +16,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = LoginComponent;
+  // rootPage: any = AreaComponent;
 
   pages: Array<{title: string, component: any}>;
 
@@ -25,6 +27,7 @@ export class MyApp {
     this.pages = [
       { title: 'Login', component: LoginComponent },
       { title: 'Register', component: RegisterComponent },
+      { title: 'Area', component: AreaComponent },
 
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },

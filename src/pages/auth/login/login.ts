@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { RegisterComponent } from '../register/register';
 import { FormGroup, FormControl, Validators } from "@angular/forms";
+import { AreaComponent } from '../../mainPages/area/area';
 
 @Component({
   selector: 'login-component',
@@ -29,6 +30,9 @@ export class LoginComponent {
 
   public gotoRegister() {
     this.navController.push(RegisterComponent);
+  }
+  public gotoArea() {
+    this.navController.setRoot(AreaComponent);
   }
 
 

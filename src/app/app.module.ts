@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginComponent } from '../pages/auth/login/login';
 import { RegisterComponent } from '../pages/auth/register/register';
+import { AreaComponent } from '../pages/mainPages/area/area';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,7 +19,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
 
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AreaComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
 
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AreaComponent,
   ],
   providers: [
     StatusBar,
