@@ -1,0 +1,56 @@
+<ion-content class="indicative-rates">
+  <ion-header >
+    <ion-navbar color="dark-color">
+      <!-- <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button> -->
+      <ion-title>
+        Indicative Rates
+      </ion-title>
+    </ion-navbar> 
+  </ion-header>
+  
+  <ion-content>
+    <ion-card>
+      <ion-card-content>
+        <button   
+          block 
+          color="dark-color" 
+          (click)="expandItem(item)" 
+          ion-item *ngFor="let item of items"
+        >
+          <p>{{item.title}}</p>
+          <accordion-list [height]="150" [expanded]="item.expanded">
+            <ion-grid>
+              <ion-row>
+                <ion-col col-4>
+                  Category
+                </ion-col>
+                <ion-col push-1 >
+                  Min
+                </ion-col>
+                <ion-col push-1 >
+                  Max
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col col-4>
+                    Precinct - 48
+                  </ion-col>
+                  <ion-col push-1 >
+                    +450000
+                  </ion-col>
+                  <ion-col push-1 >
+                    +2200000
+                  </ion-col>
+              </ion-row>
+            </ion-grid>
+          </accordion-list>
+        </button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-content>
+  
+    
+    

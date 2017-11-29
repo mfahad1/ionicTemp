@@ -1,10 +1,4 @@
-.area {
-  ion-header {
-    ion-navbar {
-      text-align: center;
-    }
-  }
-  
+.select-menu {
   ion-card {
     height: calc(100% - 25px);
     background: map-get($colors, background-color) !important;
@@ -12,6 +6,14 @@
       button {
         margin-top: 10% !important;
         padding: 12% !important;
+        font-size: 130%;
+        font-weight: 900;
+      }
+      .button-inner{
+        justify-content:flex-start;
+        div {
+          margin-left: 15%;
+        }
       }
     }
   }

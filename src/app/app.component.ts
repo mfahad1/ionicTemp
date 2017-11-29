@@ -25,12 +25,14 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Login', component: LoginComponent },
-      { title: 'Register', component: RegisterComponent },
-      { title: 'Area', component: AreaComponent },
+      // { title: 'Login', component: LoginComponent },
+      // { title: 'Register', component: RegisterComponent },
+      // { title: 'Area', component: AreaComponent },
 
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage },
+      { title: 'Indicative Rates', component: AreaComponent },
+      { title: 'BTK Maps', component: AreaComponent },
+      { title: 'BTK News', component: AreaComponent },
+      { title: 'Contact Us', component: AreaComponent },
     ];
 
   }

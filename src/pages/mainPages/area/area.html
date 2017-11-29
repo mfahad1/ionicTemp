@@ -1,31 +1,23 @@
 
-
-<ion-header >
-  <ion-navbar color="dark-color" align-title="center">
-    <ion-title align-title="center">
-      Default
-    </ion-title>
-  </ion-navbar> 
-</ion-header>
-
-<ion-content>
-  <ion-list>
-    <button ion-item >
-      asdsa
-    </button>
-    <button ion-item >
-      asdsa
-    </button>
-    <button ion-item >
-      asdsa
-    </button>  
-    <button ion-item >
-      asdsa
-    </button>
-    <button ion-item >
-      asdsa
-    </button>
-
-  </ion-list>
+<ion-content class="area">
+  <ion-header >
+      <ion-navbar color="dark-color">
+        <!-- <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button> -->
+        <ion-title>
+          Select Property
+        </ion-title>
+      </ion-navbar> 
+    </ion-header>
+    
+    <ion-content>
+      <ion-card>
+        <ion-card-content>
+          <button ion-button block color="dark-color" (click)='goto()'>Defence</button>
+          <button ion-button block color="dark-color" (click)='goto()'>Baharia</button>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
 </ion-content>
 
